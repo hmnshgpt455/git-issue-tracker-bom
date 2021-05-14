@@ -24,8 +24,8 @@
         </repository>
     </distributionManagement>
     <scm>
-        <connection>scm:git:https://github.com/hmnshgpt455/brewery-bom</connection>
-        <developerConnection>scm:git:https://github.com/hmnshgpt455/brewery-bom</developerConnection>
+        <connection>scm:git:https://github.com/hmnshgpt455/git-issue-tracker-bom</connection>
+        <developerConnection>scm:git:https://github.com/hmnshgpt455/git-issue-tracker-bom</developerConnection>
         <tag>git-issue-tracker-bom-0.0.1</tag>
     </scm>
     <properties>
