@@ -9,8 +9,9 @@
     </parent>
     <groupId>io.github.hmnsgpt455</groupId>
     <artifactId>git-issue-tracker-bom</artifactId>
-    <version>0.0.2-SNAMPSHOT</version>
+    <version>0.0.3-SNAMPSHOT</version>
     <name>git-issue-tracker-bom</name>
+    <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
     <distributionManagement>
         <snapshotRepository>
@@ -144,6 +145,10 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
             <plugin>
                 <artifactId>maven-clean-plugin</artifactId>
                 <executions>
